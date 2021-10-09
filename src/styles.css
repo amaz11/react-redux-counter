@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #dee0ee;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  max-height: 50px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.quantity-btn {
+  padding: 8px;
+  /* background-color: black; */
+  color: rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 1px;
+}
+.quantity-btn:hover {
+  background: #575b71;
+  color: #fff;
+  cursor: pointer;
+}
+.quantity-btn:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px rgb(219, 218, 218, 0.2);
+  transform: translateY(2px);
+}
+
+.input-field {
+  padding: 8px;
+  border: #9b9998;
+  border-radius: 2px;
+  width: 30px;
+  max-height: 20px;
+  text-align: center;
+}
